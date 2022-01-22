@@ -40,7 +40,7 @@ function cdils_change_mce_block_formats( $init ) {
 		'Code=code'
 	);
 
-
+   
 	$init['block_formats'] = implode( ';', $block_formats );
  
 	return $init;
